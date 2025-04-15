@@ -3,12 +3,12 @@ import { HeaderComponent } from "../../components/header/header.component";
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-error',
   imports: [HeaderComponent, RouterOutlet],
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.scss',
+  templateUrl: './error.component.html',
+  styleUrl: './error.component.scss',
   standalone: true,
 })
-export class HomeComponent {
+export class ErrorComponent {
 
 }
