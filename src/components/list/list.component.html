@@ -1,0 +1,20 @@
+<div>
+  <h1>list works!</h1>
+</div>
+
+<ul>
+  @for (item of partidos; track item.acronymus) {
+    <li>
+      {{ item.name }}
+    </li>
+    <li>
+      {{ item.acronymus }}
+    </li>
+    <li>
+      {{ item.creationDate }}
+    </li>
+    <li>
+      {{ item.extinctDate }}
+    </li>
+  }
+</ul>
